@@ -1,0 +1,152 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+.text-gold {
+  color: #d4af37 !important;
+}
+
+.btn-gold {
+  background-color: #d4af37;
+  color: #000;
+  border: none;
+}
+
+.btn-gold:hover {
+  background-color: #b4942f;
+  color: #fff;
+}
+
+.hero {
+  height: 100vh;
+  background: url('https://images.unsplash.com/photo-1581091870622-6a5c07f0d6f8?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+}
+
+#about p {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+
+.card img {
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.3);
+}
+
+#gallery img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#gallery img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(212, 175, 55, 0.4);
+}
+
+#pricing .card {
+  border-radius: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#pricing .card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(212, 175, 55, 0.3);
+}
+
+form .form-control {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+
+form .form-control:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hero {
+  background: url('ChatGPT\ Image\ Oct\ 24\,\ 2025\,\ 08_19_03\ PM.png')
+    no-repeat center center/cover;
+}
+
+#about {
+  background-color: #1a1a1a;
+}
+#services .card {
+  background-color: #1a1a1a;
+}
+#gallery {
+  background-color: #1a1a1a;
+}
+#pricing {
+  background-color: #000;
+}
+#contact {
+  background-color: #121212;
+}
+footer {
+  background-color: #1a1a1a;
+}
+.btn-gold {
+  background-color: #d4af37;
+  color: #000;
+}
+.btn-gold:hover {
+  background-color: #b4942f;
+  color: #fff;
+}
+form .form-control {
+  background-color: #222;
+  border: 1px solid #444;
+  color: #fff;
+}
+form .form-control:focus {
+  border-color: #d4af37;
+  box-shadow: 0 0 5px rgba(212, 175, 55, 0.5);
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 70vh;
+  }
+}
+.fade-in {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
