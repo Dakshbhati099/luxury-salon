@@ -21,7 +21,7 @@ body {
 
 .hero {
   height: 100vh;
-  background: url('https://images.unsplash.com/photo-1581091870622-6a5c07f0d6f8?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover;
+  background: url('assert/ChatGPT\ Image\ Oct\ 24\,\ 2025\,\ 08_19_03\ PM.png'') no-repeat center center/cover;
 }
 
 #about p {
@@ -150,3 +150,4 @@ form .form-control:focus {
   opacity: 1;
   transform: translateY(0);
 }
+
